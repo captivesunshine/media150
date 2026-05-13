@@ -26,15 +26,32 @@
             div{text-align:center;display: flex; margin: auto auto;
                 color: #ffffff;overflow:hidden;
                 background-color: #e251817a;}
+.options{height: 100px;
+  width: 600px;
+  
+  display: flex; /*make the items inside align in a row*/
+  align-items: center; /*center items  123 vertical*/
+  justify-content: center; /*center items  123 horizontal*/
+
+  gap: 40px; /*only adds space between items, not at the edges.*/
+
+  margin-left: auto; /*move the pork away from the left edge of the screen 100px.*/
+   /* margin: 0 auto; /*center  pork on the screen*/
+  margin-top: 50px; /* create space before and after the beef container */
+  margin-bottom: 50px; /* create space before and after the beef container */
+  
+  background-color: #e251817a;}
+            
     </style>
 </head>
 <body>
     <img src="interactive story assets/ISA_2.jpeg" height='550' width="800">
     <p>Should I take the bus or a bike..?</p>
-
+<div class="options">
     <div><a href="storyBE1.html">-Take a bike...</a></div>
     <div><a href="story3.html">-Take a bus...</a></div>
     <div><a href="story1.html">-Take a step back.</a></div>
+</div> 
     <a href=index.html>Home</a>
 </body>
 </html>
