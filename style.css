@@ -194,7 +194,10 @@ ol li:hover {
     justify-content: center;
     border-radius: 10%;
     gap: 60px}
-
+.photomontage{display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    gap: 60px}
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
